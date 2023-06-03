@@ -1,0 +1,76 @@
+/* INSTRUCTIONS
+ *
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no matter how wide or narrow
+ *    the browser is.
+ *
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
+ *
+ * You may modify the HTML if needed
+ * (you probably should for this challenge)
+ *
+ */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    font-size:  1.3125rem
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+    
+.hero {
+    background: #23424a;
+    color: white;
+    padding: 100px 0;        
+}
+
+.container {
+    width: 80%;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.hero__text{
+   width: 70%;
+}
+
+.intro-content p{
+    font-size: 1.3125rem;
+    color: rgba(159,172,176,1);
+    padding-bottom: 3rem;
+    font-weight: black;
+    font-size: 3rem;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+
+/* Button */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23424A;
+    font-weight: bold;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.button:hover,
+.button:focus {
+    opacity: .75;
+}
